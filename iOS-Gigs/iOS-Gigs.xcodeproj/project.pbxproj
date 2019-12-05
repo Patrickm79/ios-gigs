@@ -17,6 +17,8 @@
 		DB250CD523984D1900F3E222 /* Bearer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB250CD423984D1900F3E222 /* Bearer.swift */; };
 		DB250CD723984D3800F3E222 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB250CD623984D3800F3E222 /* User.swift */; };
 		DB250CDA23984D5D00F3E222 /* GigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB250CD923984D5D00F3E222 /* GigController.swift */; };
+		DB668BD02399BF9000F370E0 /* Gig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB668BCF2399BF9000F370E0 /* Gig.swift */; };
+		DB668BD22399C08B00F370E0 /* GigDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB668BD12399C08B00F370E0 /* GigDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		DB250CD423984D1900F3E222 /* Bearer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bearer.swift; sourceTree = "<group>"; };
 		DB250CD623984D3800F3E222 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DB250CD923984D5D00F3E222 /* GigController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigController.swift; sourceTree = "<group>"; };
+		DB668BCF2399BF9000F370E0 /* Gig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gig.swift; sourceTree = "<group>"; };
+		DB668BD12399C08B00F370E0 /* GigDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GigDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			children = (
 				DB250CCF23984B6500F3E222 /* GigsTableViewController.swift */,
 				DB250CD123984C4900F3E222 /* LoginViewController.swift */,
+				DB668BD12399C08B00F370E0 /* GigDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 			children = (
 				DB250CD423984D1900F3E222 /* Bearer.swift */,
 				DB250CD623984D3800F3E222 /* User.swift */,
+				DB668BCF2399BF9000F370E0 /* Gig.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,8 +191,10 @@
 				DB250CD523984D1900F3E222 /* Bearer.swift in Sources */,
 				DB250CDA23984D5D00F3E222 /* GigController.swift in Sources */,
 				DB250CD223984C4900F3E222 /* LoginViewController.swift in Sources */,
+				DB668BD02399BF9000F370E0 /* Gig.swift in Sources */,
 				DB250CD723984D3800F3E222 /* User.swift in Sources */,
 				DB250CB923984ADB00F3E222 /* AppDelegate.swift in Sources */,
+				DB668BD22399C08B00F370E0 /* GigDetailViewController.swift in Sources */,
 				DB250CBB23984ADB00F3E222 /* SceneDelegate.swift in Sources */,
 				DB250CD023984B6500F3E222 /* GigsTableViewController.swift in Sources */,
 			);
